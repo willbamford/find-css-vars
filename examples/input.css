@@ -1,0 +1,14 @@
+:root {
+  --foo: yellow;
+  --bar: rgba(255, 0, 0, 1.0);
+  --baz: var(--foo);
+}
+
+:groot {
+  --hello: blue;
+}
+
+body {
+  background: var(--foo);
+  color: var(--bar);
+}
